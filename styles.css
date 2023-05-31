@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    color: white;
+    padding: 0px;
+    background-image: url(../img/abs.jpg);
+}
+
+.left{
+    display: inline-block;
+    
+    position: absolute;
+    left: 34px;
+    top: 45px;
+}
+.centre{
+    display: block;
+    width:30% ;
+    margin: 30px auto;
+    font-size: 100%;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 12px;
+}
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+   display: inline-block;
+   font-size: 15px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 2px 2px;
+    
+}
+.navbar li a:hover,.navbar li a:active{
+    text-decoration: underline;
+    color: grey;
+}
+.left img{
+    width: 200px;
+    filter: invert(10%);
+}
+.btn{
+    text-decoration: underline;
+    margin: 0px 15px;
+    padding:4px 10px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid gray;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: grey;
+}
+.container{
+    margin: 127px 134px;
+    padding: 79px 32px;
+    border: 2px solid white;
+    border-radius:28px ;
+    width: 33%;
+}
